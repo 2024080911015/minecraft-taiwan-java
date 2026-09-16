@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.py[cod]
+
+# DEM files can be large and may have redistribution restrictions.
+*.tif
+*.tiff
+*.img
+
+# Generated files
+output/*
+!output/.gitkeep
